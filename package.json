@@ -1,6 +1,6 @@
 {
   "name": "exist-documentation",
-  "version": "5.4.0",
+  "version": "6.1.0",
   "description": "Documentation package for eXist-db",
   "scripts": {
     "test": "mocha src/test/mocha/ --recursive --exit",
@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "acorn": "^8.8.1",
-    "chai": "^4.3.6",
+    "chai": "^4.3.7",
     "cypress": "^9.6.1",
     "del": "^6.1.1",
     "gulp": "^4.0.2",
@@ -48,15 +48,15 @@
     "gulp-svgmin": "^4.1.0",
     "gulp-uglify": "^3.0.2",
     "lazypipe": "^1.0.2",
-    "mocha": "^10.1.0",
-    "sass": "^1.55.0",
+    "mocha": "^10.2.0",
+    "sass": "^1.57.1",
     "supertest": "^6.3.3"
   },
   "dependencies": {
     "@neos21/bootstrap3-glyphicons": "^1.0.7",
     "bootstrap": "^4.6.0",
     "highlight.js": "^11.7.0",
-    "jquery": "^3.6.1",
+    "jquery": "^3.6.3",
     "popper.js": "^1.16.1"
   }
 }
