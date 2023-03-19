@@ -1,0 +1,5 @@
+(: If the request's path is empty, append a trailing slash / :)
+if ($exist:path eq "") then
+  <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
+    <redirect url="{concat(request:get-uri(), '/')}"/>
+  </dispatch>
